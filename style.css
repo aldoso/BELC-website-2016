@@ -46,6 +46,29 @@ footer {
     margin-top: 25px;
 }
 
+.navbar-header a {
+  color: #e6e6e6 !important;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
+nav {
+  background: linear-gradient(to bottom,#337ab7 0,#265a88 100%) !important;
+}
+
+nav li:hover {
+  background: rgba(208, 208, 208, 0.25);
+}
+
+nav li a:link {
+  color:  #e6e6e6 !important;
+  padding: 20px;
+}
+
+nav .container {
+ /*padding: 5px 15px;*/
+}
+
 .catcarnet {
     margin-bottom: 5px;
 }
@@ -141,5 +164,8 @@ footer {
     #footer_style,
     #copy {
         text-align: center;
+    }
+    .navbar-header a {
+      padding-top: 15px;
     }
 }
