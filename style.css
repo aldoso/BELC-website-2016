@@ -1,0 +1,145 @@
+#left-jumbo {
+    padding-top: 30px;
+}
+
+.jumbotron {
+    padding-top: 70px;
+    margin-bottom: 0;
+}
+
+.alerta {
+    margin-bottom: 0px;
+}
+
+footer {
+    padding: 30px 0 20px 0;
+    margin-top: 20px;
+    background-color: #f2f2f2;
+}
+
+#gallery {
+    padding-top: 50px;
+}
+
+#informatii {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+#contact {
+    padding-top: 50px;
+}
+
+#video {
+    padding-top: 30px;
+}
+
+#google_ad {
+    margin-top: 20px 0 20px 0;
+}
+
+#google_ad2 {
+    margin-top: 20px 0 20px 0;
+}
+
+#google_ad_nav {
+    margin-top: 25px;
+}
+
+.catcarnet {
+    margin-bottom: 5px;
+}
+
+#imgtest1 {
+    height: 200px;
+    background-image: url(images/img_20130510_161403.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.container {
+    transition: padding 500;
+}
+
+.container-is-open {
+    padding-top: 200px;
+}
+
+#byus {
+    margin-top: 20px;
+}
+
+#poza_slider_1 {
+    height: 100vh;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.9) 100%), url(images/img_20130510_161345.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#poza_slider_2 {
+    height: 100vh;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.9) 100%), url(images/img_20130510_154226.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#poza_slider_3 {
+    height: 100vh;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.9) 100%), url(images/remorca1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#poza_slider_4 {
+    height: 100vh;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.9) 100%), url(images/sam_2508.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#poza_slider_5 {
+    height: 100vh;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.9) 100%), url(images/img_20130510_160234.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#poza_slider_6 {
+    height: 100vh;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.9) 100%), url(images/sam_2490-mic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#footer_style li {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+#subtitlu {
+    padding-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .flex-container {
+        float: right;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .flex-container {
+        float: none;
+    }
+    #byus,
+    #footer_style,
+    #copy {
+        text-align: center;
+    }
+}
